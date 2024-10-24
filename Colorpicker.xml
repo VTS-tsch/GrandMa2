@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.60/MA.xsd" major_vers="3" minor_vers="9" stream_vers="60">
+	<Info datetime="2024-10-13T20:29:30" showfile="2024-xx-xx_buskingshow" />
+	<Macro index="1" name="IMAGE VARIABLE CREATOR VTS">
+		<Macroline index="0">
+			<text>Store Image 221 ; Label Image 221 "UNFILLED"</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Store Image 241 ; Label Image 241 "FILLED"</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Store Image 261 ; Label Image 261 "MH1COLORS"</text>
+		</Macroline>
+		<Macroline index="3">
+			<text>Store Image 281 ; Label Image 281 "MH2COLORS"</text>
+		</Macroline>
+		<Macroline index="4">
+			<text>Store Image 301 ; Label Image 301 "STATIC1COLORS"</text>
+		</Macroline>
+		<Macroline index="5">
+			<text>Store Image 321 ; Label Image 321 "STATIC2COLORS"</text>
+		</Macroline>
+		<Macroline index="6">
+			<text>Store Image 341 ; Label Image 341 "FX1COLORS"</text>
+		</Macroline>
+		<Macroline index="7">
+			<text>Store Image 361 ; Label Image 361 "FX2COLORS"</text>
+		</Macroline>
+		<Macroline index="8">
+			<text>Store Image 381 ; Label Image 381 "RESOLUME1COLORS"</text>
+		</Macroline>
+		<Macroline index="9">
+			<text>Store Image 401 ; Label Image 401 "RESOLUME2COLORS"</text>
+		</Macroline>
+		<Macroline index="10">
+			<text>Store Image 421 ; Label Image 421 "RESOLUME3COLORS"</text>
+		</Macroline>
+		<Macroline index="11">
+			<text>Store Image 441 ; Label Image 441 "ALLCOLORS"</text>
+		</Macroline>
+		<Macroline index="12">
+			<text>Store Macro 1001 ; Label Macro 1001 "MH1"</text>
+		</Macroline>
+		<Macroline index="13">
+			<text>Store Macro 1002 ; Label Macro 1002 "MH2"</text>
+		</Macroline>
+		<Macroline index="14">
+			<text>Store Macro 1003 ; Label Macro 1003 "STATIC1"</text>
+		</Macroline>
+		<Macroline index="15">
+			<text>Store Macro 1004 ; Label Macro 1004 "STATIC2"</text>
+		</Macroline>
+		<Macroline index="16">
+			<text>Store Macro 1005 ; Label Macro 1005 "FX1"</text>
+		</Macroline>
+		<Macroline index="17">
+			<text>Store Macro 1006 ; Label Macro 1006 "FX2"</text>
+		</Macroline>
+		<Macroline index="18">
+			<text>Store Macro 1007 ; Label Macro 1007 "RESOLUME1"</text>
+		</Macroline>
+		<Macroline index="19">
+			<text>Store Macro 1008 ; Label Macro 1008 "RESOLUME2"</text>
+		</Macroline>
+		<Macroline index="20">
+			<text>Store Macro 1009 ; Label Macro 1009 "RESOLUME3"</text>
+		</Macroline>
+		<Macroline index="21">
+			<text>Store Macro 1010 ; Label Macro 1010 "ALL"</text>
+		</Macroline>
+	</Macro>
+	<Macro index="2" name="IMAGEVARIABLEFIXER VTS">
+		<Macroline index="0">
+			<text>SetVar $UNFILLED ="Image 222 Thru 233"</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>SetVar $FILLED ="Image 242 Thru 253"</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>SetVar $MH1COLORS ="Image 262 Thru 273"</text>
+		</Macroline>
+		<Macroline index="3">
+			<text>SetVar $MH2COLORS ="Image 282 Thru 293"</text>
+		</Macroline>
+		<Macroline index="4">
+			<text>SetVar $STATIC1COLORS ="Image 302 Thru 313"</text>
+		</Macroline>
+		<Macroline index="5">
+			<text>SetVar $STATIC2COLORS ="Image 322 Thru 333"</text>
+		</Macroline>
+		<Macroline index="6">
+			<text>SetVar $FX1COLORS ="Image 342  Thru 353"</text>
+		</Macroline>
+		<Macroline index="7">
+			<text>SetVar $FX2COLORS ="Image 362 Thru 373"</text>
+		</Macroline>
+		<Macroline index="8">
+			<text>SetVar $RESOLUME1COLORS ="Image 382 Thru 393"</text>
+		</Macroline>
+		<Macroline index="9">
+			<text>SetVar $Resolume2COLORS ="Image 402 Thru 413"</text>
+		</Macroline>
+		<Macroline index="10">
+			<text>SetVar $Resolume3COLORS ="Image 422 Thru 433"</text>
+		</Macroline>
+		<Macroline index="11">
+			<text>SetVar $ALLCOLORS ="Image 442 Thru 453"</text>
+		</Macroline>
+		<Macroline index="12">
+			<text>SetVar $WHITEIMAGE ="Image 262 + 282 + 302 + 322 + 342 + 362 + 382 + 402 + 422"</text>
+		</Macroline>
+		<Macroline index="13">
+			<text>SetVar $REDIMAGE ="Image 263 + 283 + 303 + 323 + 343 + 363 + 383 + 403 + 423"</text>
+		</Macroline>
+		<Macroline index="14">
+			<text>SetVar $ORANGEIMAGE ="Image 264 + 284 + 304 + 324 + 344 + 364 + 384 + 404 + 424"</text>
+		</Macroline>
+		<Macroline index="15">
+			<text>SetVar $YELLOWIMAGE ="Image 265 + 285 + 305 + 325 + 345 + 365 + 385 + 405 + 425"</text>
+		</Macroline>
+		<Macroline index="16">
+			<text>SetVar $GREENIMAGE ="Image 266 + 286 + 306 + 326 + 346 + 366 + 386 + 406 + 426"</text>
+		</Macroline>
+		<Macroline index="17">
+			<text>SetVar $SEAGREENIMAGE ="Image 267 + 287 + 307 + 327 + 347 + 367 + 387 + 407 + 427"</text>
+		</Macroline>
+		<Macroline index="18">
+			<text>SetVar $BLUEIMAGE ="Image 268 + 288 + 308 + 328 + 348 + 368 + 388 + 408 + 428"</text>
+		</Macroline>
+		<Macroline index="19">
+			<text>SetVar $LAVENDERIMAGE ="Image 269 + 289 + 309 + 329 + 349 + 369 + 389 + 409 + 429"</text>
+		</Macroline>
+		<Macroline index="20">
+			<text>SetVar $VIOLETIMAGE ="Image 270 + 290 + 310 + 330 + 350 + 370 + 390 + 410 + 430"</text>
+		</Macroline>
+		<Macroline index="21">
+			<text>SetVar $MAGENTAIMAGE ="Image 271 + 291 + 311 + 331 + 351 + 371 + 391 + 411 + 431"</text>
+		</Macroline>
+		<Macroline index="22">
+			<text>SetVar $PINKIMAGE ="Image 272 + 292 + 312 + 332 + 352 + 372 + 392 + 412 + 432"</text>
+		</Macroline>
+		<Macroline index="23">
+			<text>SetVar $CYANIMAGE ="Image 273 + 293 + 313 + 333 + 353 + 373 + 393 + 413 + 433"</text>
+		</Macroline>
+	</Macro>
+	<Macro index="3" name="Image Copier VTS">
+		<Macroline index="0">
+			<text>Copy $UNFILLED At Image 262 /o</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Copy $UNFILLED At Image 282 /o</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Copy $UNFILLED At Image 302 /o</text>
+		</Macroline>
+		<Macroline index="3">
+			<text>Copy $UNFILLED At Image 322 /o</text>
+		</Macroline>
+		<Macroline index="4">
+			<text>Copy $UNFILLED At Image 342 /o</text>
+		</Macroline>
+		<Macroline index="5">
+			<text>Copy $UNFILLED At Image 362 /o</text>
+		</Macroline>
+		<Macroline index="6">
+			<text>Copy $UNFILLED At Image 382 /o</text>
+		</Macroline>
+		<Macroline index="7">
+			<text>Copy $UNFILLED At Image 402 /o</text>
+		</Macroline>
+		<Macroline index="8">
+			<text>Copy $UNFILLED At Image 422 /o</text>
+		</Macroline>
+		<Macroline index="9">
+			<text>Copy $UNFILLED At Image 442 /o</text>
+		</Macroline>
+	</Macro>
+</MA>
